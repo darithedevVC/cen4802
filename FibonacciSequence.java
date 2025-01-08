@@ -8,6 +8,7 @@ public class FibonacciSequence {
      * @return  the nth term in the Fibonacci Sequence
      */
     public static int fibonacci(int n) {
+
         int ans;
 
         if (n <= 1){
@@ -15,7 +16,6 @@ public class FibonacciSequence {
         } else {
             ans = fibonacci(n - 1) + fibonacci(n - 2);
         }
-
         return ans;
     }
 
