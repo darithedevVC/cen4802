@@ -22,7 +22,7 @@ public class FibonacciSequence {
     // The main method
     public static void main(String[] args) {
 
-        int n = 10;
+        int n = 15;
 
         System.out.print("The " + n +"th term of the Fibonacci sequence is ");
 
